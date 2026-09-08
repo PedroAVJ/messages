@@ -1,0 +1,42 @@
+{
+  "name": "messages",
+  "version": "0.2.0",
+  "description": "Read bounded Messages hygiene metadata and outgoing writing samples without changing SMS, RCS, or iMessage state.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/messages",
+  "repository": "https://github.com/PedroAVJ/messages",
+  "license": "MIT",
+  "keywords": [
+    "messages",
+    "sms",
+    "rcs",
+    "imessage",
+    "spam",
+    "macos"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Messages",
+    "shortDescription": "Read Messages hygiene and writing samples",
+    "longDescription": "Inspect bounded incoming message metadata or authorized outgoing text samples from the local macOS Messages database. Preserve exact source IDs, service and authorship caveats without replying, sending, marking read, or changing chats.",
+    "developerName": "PedroAVJ",
+    "category": "Communication",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://support.apple.com/messages",
+    "defaultPrompt": [
+      "Review recent Messages for spam",
+      "Check this SMS sender safely",
+      "Find source opt-out candidates",
+      "Use my outgoing iMessages as writing examples"
+    ],
+    "brandColor": "#2563EB",
+    "composerIcon": "./assets/messages-hygiene-icon.png",
+    "logo": "./assets/messages-hygiene-icon.png",
+    "screenshots": []
+  }
+}

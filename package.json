@@ -1,0 +1,18 @@
+{
+  "name": "@pedroavj/messages",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Read bounded Messages hygiene metadata and outgoing writing samples without changing SMS, RCS, or iMessage state.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAVJ/messages.git"
+  },
+  "homepage": "https://github.com/PedroAVJ/messages#readme",
+  "bugs": {
+    "url": "https://github.com/PedroAVJ/messages/issues"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py'"
+  }
+}
